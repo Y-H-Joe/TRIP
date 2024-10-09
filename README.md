@@ -193,3 +193,10 @@ We haven't tested it. But we offer `--skip_subreads`, which will let ***TRIP*** 
 ***TRIP didn't finish downloading the reads?***
 
 This may happen because of local connection internet limitations and you may need to re-try downloading (just re-run the ***TRIP***). However, even with truncated reads file, ***TRIP*** ususally can still identify the correct TRM. For example, in the ***output file*** section above, our downloads also truncated, but ***TRIP*** still identified the **AACCT** in HARAX. On the other hand, you can still re-run the ***TRIP*** with `--continue True`, ***TRIP*** will continue from the truncated downloads.
+
+***
+Cite
+***
+Profiles of telomeric repeats in Insecta reveal diverse forms of telomeric motifs in Hymenopterans
+
+DOI: 10.26508/lsa.202101163
